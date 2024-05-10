@@ -1,0 +1,70 @@
+/* HeroSection.css */
+/* IntroText.css */
+.hero-section {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color: #002826;
+    height: 90vh; /* Set height to 100% of the viewport height */
+    color: white;
+    text-align: center;
+    max-width: none;
+    display: flex; /* Added for flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    overflow: hidden; /* This will prevent any child elements from overflowing */
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .home-page-intro-content {
+    position: absolute;
+    top: 5%; /* 20% from the top of the hero section */
+    width: 100%; /* Full width to center the content */
+    text-align: center; /* Center the text if needed */
+  }
+
+  .home-page-intro-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    line-height: 78px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  
+  .home-page-intro-content p {
+    margin-bottom: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    line-height: 62px;
+    font-weight: 400
+  }
+  
+  .cta-button {
+    font-size: 24px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+    border: 2px solid #bb7912;
+    background-color: #bb7912;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 60px;
+    margin-right: 10px;
+  }
+  
+  
+
+.person-image {
+    position: absolute;
+    /* Ensure the image covers the required area and maintains its aspect ratio */
+    bottom: 0%;
+    height: auto;
+    width: 80%; /* The width should be 100% of its parent to stretch the image properly */
+    min-width: 1000px;
+  }
+  
+  

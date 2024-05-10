@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures elements are pushed to both ends */
+  padding: 0 20px;
+  background-color: #002826; /* Dark teal background */
+  height: 100px;
+}
+
+.logo img {
+  max-width: 163px;
+  height: auto;
+  object-fit: contain;
+}
+
+.logo {
+  flex: 0 0 auto; /* No grow, no shrink */
+}
+
+.navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1; /* Grows to take available space, ensuring centering */
+  gap: 20px;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px; /* Add padding for better click area and appearance */
+}
+
+.navLink:hover {
+  background-color: #f1f1f1;
+  color: #002826; /* Changes text color on hover for better contrast */
+}
+
+.dropdownMenu {
+  margin-left: auto; /* Pushes it to the right */
+  flex-shrink: 0; /* Prevents shrinking */
+}
+
+.menuIcon {
+  color: white; /* Assuming there is an icon with this class */
+}

@@ -1,0 +1,81 @@
+.second-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    width: 100%;
+    background-color: #e9e3dc;
+    padding-top: 5%; /* Adjust the top padding as necessary */
+    position: relative; /* Needed for absolute positioning of children */
+    box-sizing: border-box;
+}
+
+.second-page-content {
+    width: 100%; /* Full width */
+    max-width: 600px; /* Adjust to the desired content width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Ensure the content takes up the full height minus the bottom area for the buttons */
+    padding-bottom: 25%; 
+}
+
+h1 {
+    margin: 0 0 16px; /* Adjust margins as necessary */
+    font-size: 2.5rem; /* Adjust font size as needed */
+}
+
+p {
+    margin: 0 0 32px; /* Adjust margins as needed */
+    font-size: 1.5rem; /* Adjust font size as needed */
+}
+.second-page-buttons {
+    position: absolute; /* Position the buttons absolutely within the parent container */
+    bottom: 10%; /* Changed from 25% to 10% as per your recent screenshot */
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 20px; /* Adjust the gap between buttons */
+  }
+  
+  /* Common styles for all buttons */
+  .second-page-buttons button {
+    padding: 15px 30px; /* Double the padding */
+    font-size: 1.5em; /* Increase the font size */
+    border: 2px solid #bb7912; /* Color for the border based on your screenshot */
+    color: #bb7912; /* Button text color */
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 60px;
+  }
+  
+  /* Additional styles for the 'Our Services' button */
+  .second-page-buttons button.our-services {
+    background-color: #bb7912; /* Background color for the solid button */
+    color: white; /* Text color for the solid button */
+  }
+  
+  /* Additional styles for the 'Learn More' button */
+  .second-page-buttons button.learn-more {
+    background-color: transparent; /* Transparent background for the outline button */
+  }
+  
+  /* Hover effects */
+  .second-page-buttons button.our-services:hover {
+    background-color: transparent; /* Change background on hover for both buttons */
+    color: white; /* Change text color on hover for both buttons */
+  }
+  .second-page-buttons button.our-services:hover {
+    background-color: transparent; /* Change background on hover for both buttons */
+    color: #bb7912; /* Change text color on hover for both buttons */
+
+  }
+  
+  .second-page-buttons button.learn-more:hover {
+    background-color: #bb7912;
+    color: white;
+    border-color: #bb7912; /* Ensure the border color stays consistent on hover */
+  }

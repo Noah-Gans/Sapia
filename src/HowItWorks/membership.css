@@ -1,0 +1,109 @@
+/* MembershipBenefits.css */
+.membership-benefits {
+    max-width: 100%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    align-items: left;
+    background-color: #f7f4f2;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.membership-benefits h1 {
+    padding-top: 8%;
+    font-size: 46px;
+    font-weight: 500;
+    color: #36120F;
+    line-height: 60px;
+    font-family: 'Poppins'; /* Now using Poppins */ 
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.membership-benefits h2 {
+    color: #36120F;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.membership-benefits ul {
+    list-style-type: none; /* Removes default bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 20px 0; /* Adds vertical spacing around the list */
+    max-width: 70%;
+    margin-bottom: 5%;
+}
+
+.membership-benefits li {
+    padding-left: 26px; /* Gives some padding on the left */
+    font-size: 20px;
+    line-height: 26px;
+    text-indent: 0px; /* Aligns the text properly with the pseudo-element */
+    position: relative; /* Needed for pseudo-element positioning */
+    line-height: 1.6; /* Adjust line height for better readability */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.membership-benefits li:before {
+    content: '•'; /* Creates a bullet point */
+    color: #004D49; /* Color of the bullet, can be adjusted */
+    font-size: 20px; /* Size of the bullet */
+    position: absolute; /* Absolutely positions the bullet within the li */
+    left: 0; /* Aligns bullet to the left */
+    top: 0; /* Aligns bullet to the top */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    gap: 20px; /* Space between the grid items */
+    align-self: center;
+
+}
+
+.benefit {
+    border-radius: 8px;
+}
+
+.benefit h3 {
+    color: #36120F; /* Dark green, similar to your design */
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+
+
+.benefit ul {
+    padding-left: 20px;  /* Adds indentation to the list */
+}
+
+.benefit li {
+    margin-bottom: 10px;  /* Adds space between list items */
+    width: 120%;
+    line-height: 1.6;  /* Improves readability */
+}
+.personalized-image {
+    width: auto;  /* Adjust as needed */
+    height: 135px;
+    padding-left: 20px;
+}
+
+.blueprint-image {
+    width: auto;  /* Adjust as needed */
+    height: 140px;
+    padding-left: 20px;
+
+}
+
+.access-image {
+    width: auto;  /* Adjust as needed */
+    height: 135px;
+    padding-left: 20px;
+
+}
+
+.diagnostics-image {
+    width: 221px;  /* You can adjust this as well if needed */
+    height: auto;
+    padding-left: 20px;
+}

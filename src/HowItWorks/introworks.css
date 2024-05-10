@@ -1,0 +1,113 @@
+/* HealthcareBanner.css */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    background: #e9e3dc; /* Assuming a light background */
+    height: 60vh;
+}
+
+.content {
+    max-width: 50%;
+    padding-left: 10%;
+   
+}
+
+.content .member-intro-h1 {
+    margin-top: 10px;
+    font-size: 46px;
+    font-weight: 500;
+    color: #36120F;
+    line-height: 60px;
+    font-family: 'Poppins';
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.intro-h2 {
+    font-family: 'Poppins'; /* Now using Poppins */ 
+    color: #36120F;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    padding-bottom: 20px;
+
+}
+
+
+.content p {
+    font-size: 1.2em;
+    color: #36120F;
+    padding-bottom: 20px;
+    text-align: left;
+
+}
+
+.buttons button {
+    margin-left: 10%;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: 2px solid #bb7912;
+    color: #bb7912;
+    background: transparent;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 60px;
+    margin-right: 10px;
+    z-index: 5;
+}
+
+.buttons .contact-us {
+    background-color: #bb7912;
+    color: white;
+}
+
+.buttons .sign-up {
+    background-color: transparent;
+}
+
+.buttons button:hover {
+    background-color: #bb7912;
+    color: white;
+}
+
+.image-container {
+    position: relative;
+    width: 45%; /* Adjust based on design */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.runner-image {
+    z-index: 3;
+    position: absolute;
+    bottom: 0%; /* Adjust this as needed */
+    right: 20%; /* This will place part of the image out of the container, adjust if necessary */
+    width: auto; /* Example fixed width, adjust as needed */
+    height: 90%; /* Maintains aspect ratio based on the width */
+}
+
+.overlay-circle {
+    position: absolute;
+    z-index: 3;
+    top: 45%; /* Align with the runner image */
+    right: 31%; /* This might need adjusting */
+    width: 170px; /* Fixed size for the circle */
+    height: auto; /* Same as width to maintain the circle shape */
+}
+
+.decorative-blob {
+    position: absolute;
+    bottom: 0%; /* Adjust position as needed */
+    right: 0%;
+    width: auto;
+    height: 447px;
+}

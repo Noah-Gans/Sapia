@@ -1,0 +1,64 @@
+
+.doctor-profile {
+    background-color: #f9f9f9;
+    width: 600px; /* Matches the width in your image */
+    padding: 100px;
+    padding-top: 50px;
+    border-radius: 8px;
+    border: black solid;
+    border-width: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+
+}
+
+
+.doctor-profile h1 {
+    font-size: 28px;  /* Larger font size for the title */
+    color: #004D49;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif; /* Now using Poppins */    
+}
+
+.profile-and-credentials {
+    display: flex;
+    align-items: center; /* Center items vertically within the row */
+    margin-bottom: 20px; /* Space between this section and the paragraph */
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.credentials {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Take remaining space */
+}
+
+.credentials div {
+    font-size: 16px;
+    color: #36120F;
+    margin-bottom: 10px; /* Spacing between credential items */
+}
+
+.credential-text {
+    border-bottom: 1px solid #36120F;
+    padding-bottom: 2px; /* Adds space between the text and the underline */
+    display: inline-block;
+}
+
+.doctor-profile p {
+    text-align: justify;
+    margin: 0; /* Adjust as necessary */
+    font-family: 'Open Sans', sans-serif; /* Ensure Open Sans is loaded or available */
+    font-size: 18px; /* Size as specified */
+    line-height: 26px; /* Line height as specified */
+    color: #36120F;
+}

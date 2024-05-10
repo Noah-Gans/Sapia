@@ -1,0 +1,38 @@
+/* Footer.css */
+.footer-container {
+    background-color: #002826; /* Dark background based on the image */
+    color: white;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; /* Adjust padding as needed */
+    position: relative;
+  }
+  
+  .footer-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    max-height: 70px;
+    /* Add style for your logo if needed */
+  }
+  
+  .footer-brand-name {
+    margin-left: 1rem; /* Space between logo and brand name */
+    font-weight: bold;
+    /* Add more styling for the brand name text as needed */
+  }
+  
+  .footer-social a {
+    margin-left: 1rem; /* Space between social icons */
+  }
+  
+  .footer-social a img {
+    width: 30px; /* Size of social icons */
+    height: auto;
+    /* Add more styling for social icons as needed */
+  }
+  

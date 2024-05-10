@@ -1,0 +1,35 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+}
+
+.menuIcon {
+  background: none;
+  border: none;
+  font-size: 48px;
+  cursor: pointer;
+}
+
+.menuContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.link {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.link:hover {
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,96 @@
+.getting-started-container {
+    position: relative;
+    width: 100%;
+    height: 583px; /* Adjust the height based on your layout needs */
+    background-color:  #f7f4f2; /* Light background color */
+    overflow: hidden;
+  }
+  
+  .dark-green-small-circle, .dark-yellow-circle, .green-half-donut, .people-running {
+    position: absolute;
+  }
+  
+  
+  .contactus-content {
+    position: absolute;
+    top: 40%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%; /* Adjust width */
+  }
+  .contactus-content h1{
+    font-size: 46px;
+    font-weight: 500;
+    color: #36120F;
+    line-height: 60px;
+    font-family: 'Poppins'; /* Now using Poppins */ 
+    margin-bottom: 0px;
+  }
+  .contactus-content h2{
+    font-size: 46px;
+    font-weight: 500;
+    color: #36120F;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Poppins'; /* Now using Poppins */ 
+  }
+
+  .contactus-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #36120F;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 0px;    
+    max-width: 40%;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+  }
+
+  .contact-us-btn {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 2.5%;
+    border: 2px solid #bb7912;
+    background-color: #bb7912;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 60px;
+    margin-right: 10px;
+  }
+  
+  .contact-us-btn:hover {
+    background-color: #bb7912;
+    color: white;
+}
+.dark-green-small-circle {
+    top: 15%; /* Adjust positioning */
+    left: 80%; /* Adjust positioning */
+    width: 40px;
+    height: auto;
+  }
+  
+  .dark-yellow-circle {
+    top: 20%; /* Adjust positioning */
+    left: 10%; /* Adjust positioning */
+    width: 30px;
+    height: auto;
+  }
+  
+  .green-half-donut {
+    bottom: 16%; /* Adjust positioning */
+    left: 11%; /* Adjust positioning */
+    width: 300px;
+    height: auto;
+  }
+  
+  .people-running {
+    bottom: 25%; /* Adjust positioning */
+    left: 15%; /* Adjust positioning */
+    width: 232px;
+    height: auto;
+  }

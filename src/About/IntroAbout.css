@@ -1,0 +1,63 @@
+/* AboutUs.css */
+.aboutUsContainer {
+    position: relative;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-color: #002826; /* Dark teal background, adjust color as needed */
+    padding: 40px;
+    max-width: 100%; /* Adjust based on your layout requirements */
+    margin: auto;
+    padding-bottom: 200px;
+  }
+  
+  .aboutUsContainer img {
+    position: absolute;
+  }
+  
+  .aboutUsContainer h1 {
+    font-size: 2.5em; /* Large font size for the header */
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-left: 15%; /* Starts text 10% from the left edge of the container */
+
+  }
+  
+  .aboutUsContainer p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    line-height: 38px;
+    text-align: left;
+    color: #E9E3DC;
+    margin-left: 15%; /* Starts text 10% from the left edge of the container */
+    margin-right: 35%; /* Ensures the text block does not extend beyond 50% from the left edge */
+    margin-bottom: 20px; /* Space between paragraphs */
+  }
+  
+  
+  /* Positioning specific images based on your paths and description */
+  /* Adjust 'right' and 'top' values to fit your design */
+  .large-green-semi-circle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 75%;
+    width: auto;
+  }
+  
+  .yellow-circle-position {
+    position: absolute;
+    right: 23%; /* Adjust this value as needed */
+    top: 30%; /* Adjust this value as needed */
+    width: 35px;
+    height: auto;
+  }
+  
+  .yellow-semi-circle {
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 250px;
+    width: auto;
+  }
+  

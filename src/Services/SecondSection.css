@@ -1,0 +1,65 @@
+.services-list-wrapper {
+  background-color: #f7f4f2;
+  padding: 20px;
+  display: flex; /* Use flexbox for center alignment */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center children horizontally */
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+}
+
+.service-item {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 20px; /* Space between service items */
+  width: 60%; /* Take up the full width to respect the margin auto */
+}
+
+.service-icon {
+  width: 200px; /* Set the wrapper width to 200px */
+  height: 200px; /* Set the wrapper height to 200px */
+  padding: 30px; /* Adjust padding as needed */
+}
+
+.service-icon img {
+  margin: auto;
+  align-self: center;
+  max-width: 100%; /* Maximum width limit, 100% of the container */
+  max-height: 100%; /* Maximum height limit, 100% of the container */
+  display: block; /* Remove any default inline properties */
+}
+
+.service-text {
+  flex: 1; /* Allows text block to fill up the remaining space */
+  margin-left: 20px; /* Give some space between the icon and the text */
+}
+
+.service-text h3,
+.service-text h3 a {
+  color: #36120F;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 0; /* Adjust as needed */
+}
+
+.service-text p {
+  color: #36120F;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #333;
+  width: 100%; /* Set the width as per requirement */
+  margin-top: 50px; /* Adjust the space between text and underline */
+  margin-bottom: 0; /* Adjust if needed */
+}

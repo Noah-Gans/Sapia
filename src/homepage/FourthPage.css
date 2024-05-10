@@ -1,0 +1,145 @@
+.about-container {
+  position: relative; /* Add this line */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #002826;
+  color: white;
+  max-width: 100%;
+  height: flex;
+  margin: auto;
+}
+
+
+.about-button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  border: 2px solid #bb7912;
+  color: #bb7912;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 60px;
+  margin-left: 10px;
+}
+
+
+.about-text {
+  text-align: left;
+  margin-top: 10%;
+  margin-bottom: 100px;
+  margin-left: 20%;
+  margin-right: 40%;
+  width: 40%;
+}
+
+.about-text h2 {
+  margin-bottom: 10%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 46px;
+  line-height: 25px;
+  font-weight: 500;
+
+}
+
+.about-text p {
+  font-size: 18px; /* Added px unit */
+  margin-bottom: 10%;
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  color:#E9E3DC;
+}
+
+
+
+.about-image-quote {
+  display: flex;
+  align-items: center; /* Center-align the headshot and the quote vertically */
+  justify-content: center; /* Center the content horizontally */
+  width: 100%; /* Take the full width of the container */
+  margin-top: 20px; /* Space between text and image/quote */
+  color: #E9E3DC;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.headshot {
+  z-index: 1;
+  margin-left: 10%;
+  margin-top: 0%;
+  max-width: 30%; /* Adjust based on your actual image size */
+  margin-right: 20px; /* Space between image and quote */
+  margin-bottom: 0px;
+}
+
+
+.about-quote {
+  z-index: 1;
+  width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.custom-about-blockquote {
+  font-size: 28px; /* Adjust if necessary to match the exact size */
+  line-height: 38px;
+  font-weight: 300;
+  color: #c5c0bb;
+  font-family: 'Poppins', sans-serif;
+  text-align: left; /* Align text center as in the image */
+  margin: 0 ; /* For centering the block horizontally if needed */
+  width: 100%; /* Adjust based on your layout's needs */
+  display: block; /* To make sure it behaves as a block-level element */
+  margin-bottom: 10%;
+  /* Any additional properties like font-weight, letter-spacing, etc. */
+}
+cite {
+  margin-top: 20%;
+
+}
+
+.shape-large {
+  position: absolute;
+  bottom: 0%; /* Adjust as needed */
+  left: 40%; /* Adjust as needed */
+  width: 20%; /* Size of the large circle */
+  height: auto; /* Size of the large circle */
+  z-index: 0; /* Ensure it does not overlap important content */
+}
+
+.shape-medium {
+  position: absolute;
+  bottom: 40%; /* Adjust as needed */
+  right: 20%; /* Adjust as needed */
+  width: 5%; /* Size of the small circle */
+  height: auto; /* Size of the small circle */
+  z-index: 0;
+}
+
+.shape-small {
+  position: absolute;
+  top: 10%; /* Adjust based on the overall layout */
+  right: 0%; /* Adjust based on the overall layout */
+  width: 15%; /* Size of the ellipse */
+  height: 60%; /* Size of the ellipse */
+  z-index: 0;
+}
+
+
+/* ... rest of your styles ... */
+
+@media (max-width: 768px) {
+  .about-image-quote {
+    flex-direction: column;
+  }
+
+  .about-quote {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .headshot {
+    margin-bottom: 20px; /* Space between image and quote on smaller screens */
+  }
+}

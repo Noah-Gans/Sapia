@@ -1,0 +1,140 @@
+.third-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #f7f4f2;
+  padding-top: 5%;
+  box-sizing: border-box;
+}
+
+.third-page-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.third-page-content h1{
+  font-family: 'Poppins', sans-serif;
+  font-size: 46px;
+  line-height: 60px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  color: #36120F;
+}
+.third-page-content p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  line-height: 60px;
+  font-weight: 500;
+  margin-bottom: 2px;
+  color: #36120F;
+  margin-bottom: 0; /* Consider adding margin-bottom if spacing is needed */
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between; /* This can be adjusted if needed */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: -20px; /* Reduced from 20px to make columns closer */
+  padding: 1px 5px; /* Reduced horizontal padding */
+  max-width: 1200px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.icon-column {
+  flex-basis: calc(40% - 0px); /* Adjusted to reflect the new gap */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  margin-bottom: 200px;
+}
+
+.icon-item .icon-text {
+  text-align: left; /* Align text to the left */
+  width: 100%; /* Ensure text container uses the full available width */
+  text-align: left;
+  max-width: 100%; /* Ensures the text container doesn't exceed the column width */
+}
+
+.icon-item img {
+  max-height: 200px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+}
+
+.icon-item .icon-text h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /* Additional title styles can go here */
+}
+
+.icon-text {
+  width: 100%;
+}
+
+.icon-text p {
+  font-size: 20px; /* Adjust the font size to be slightly smaller */
+  line-height: normal;
+  text-align: left; /* Align text to the left */
+  margin-left: 0; /* Ensure no indentation */
+  padding-left: 0; /* In case padding is causing indentation */
+}
+
+
+/* Individual icon size classes */
+
+.icon-size-personalized-medicine{
+  margin-top: 350px;
+}
+
+
+/* Add additional icon size classes here, following the pattern of .icon-size-nutrition */
+
+.third-page-buttons {
+  margin-top: -5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 0; /* Adjust padding as needed */
+  /* Remove bottom and position if not necessary */
+  margin-bottom: 20%;
+}
+
+/* Button styles with overrides and hover effects */
+.third-page-buttons button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  border: 2px solid #bb7912;
+  color: #bb7912;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 60px;
+}
+
+.third-page-buttons button.our-services {
+  background-color: #bb7912;
+  color: white;
+}
+
+.third-page-buttons button:hover {
+  background-color: #bb7912;
+  color: white;
+  border-color: #bb7912; /* Unify hover effects */
+}

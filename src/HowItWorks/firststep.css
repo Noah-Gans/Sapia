@@ -1,0 +1,136 @@
+.accordion-container {
+    margin: auto;
+    background-color: #f7f4f2;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.custom-h1 {
+    font-family: 'Poppins';
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: left;
+    color: #36120F;
+    margin-bottom: 0px;
+    margin-left: 20%;
+
+}
+
+.custom-h2 {
+    font-family: 'Poppins';
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    color: #36120F;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+}
+
+.custom-p {
+    margin-bottom: 0px;
+    margin-left: 20%;
+    max-width: 40%;
+    color: #36120F;
+
+}
+
+
+.sign-up-button {
+    margin-left: 20%;
+    margin-bottom: 5%;
+    font-size: 22px;
+    margin-top: 2.5%;
+    border: 2px solid #bb7912;
+    background-color: transparent;
+    color: #bb7912;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 60px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 20.67px;
+    text-align: center;
+
+}
+  
+.sign-up-button:hover {
+    background-color: #bb7912;
+    color: white;
+}
+
+
+.section {
+    margin: auto;
+    background-color: #f7f4f2;
+    border-bottom: 1px solid;
+    max-width: 50%;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    color: #36120F;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-right: 2%;
+    font-weight: 100;
+}
+
+.section-content {
+    padding: 10px;
+    color: #36120F;
+    background-color: #f7f4f2;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+}
+
+.section-group {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-family: 'Poppins'; /* Now using Poppins */ 
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+    margin-left: 25%;
+    color: #36120F;
+    margin-top: 5%;
+    margin-bottom: 3%;
+
+
+}
+
+/* Adding a vertical line above the first section in each group */
+.section-group .section:first-child .section-header::before {
+    content: '';
+    display: block;
+    width: 2px; /* Width of the vertical line */
+    height: 30px; /* Height of the vertical line */
+    background-color: black; /* Color of the line */
+    position: absolute;
+    top: -40px; /* Position the line above the section */
+    left: 50%; /* Center the line horizontally */
+    transform: translateX(-50%); /* Ensure the line is perfectly centered */
+}

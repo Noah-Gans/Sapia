@@ -1,0 +1,40 @@
+
+.large-green-ellipse,
+.dark-green-medium-circle,
+.small-green-circle,
+.dark-green-half-donut,
+.medium-yellow-circle,
+.dark-yellow-circle-small,
+.large-green-semicircle {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.large-green-ellipse { top: 25%; left: 0%; width: 790px; }
+.dark-green-medium-circle { top: 35%; left: 75%; width: 300px; }
+.small-green-circle { top: 32%; left: 75%; width: 50px; }
+.dark-green-half-donut { top: 75%; left: 0%; width: 681px; }
+.medium-yellow-circle { top: 80%; left: 260px; width: 280px; }
+.dark-yellow-circle-small { top: 55%; left: 15%; width: 70px; }
+.large-green-semicircle { top: 65%; left: 60%; width: 15%; }
+
+
+  .white-page {
+    background-color: #e9e3dc; /* Sets the background color to white */
+    height: 300vh; /* Sets the height to two times the viewport height */
+    width: 100vw; /* Ensures the width spans the full viewport width */
+    position: relative; /* Allows absolute positioning inside */
+  }
+  
+  .kindervater-position {
+    position: absolute;
+    top: -5%;
+    left: 15%; /* Adjust left position as needed */
+  }
+  
+  .nelson-position {
+    position: absolute;
+    top: 40%; /* Adjust top position as needed */
+    left: 35%; /* Adjust left position as needed */
+  }

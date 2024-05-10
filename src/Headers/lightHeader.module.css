@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust the padding as necessary */
+    background-color: #e9e3dc; /* Assuming a white background, change as necessary */
+  }
+  
+  .logo {
+    height: 50px; /* Adjust based on your logo's size */
+  }
+  
+  /* You may already have styles for your dropdown menu in DropdownMenu.css */
+  

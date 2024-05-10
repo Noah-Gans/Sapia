@@ -1,0 +1,76 @@
+.comparison-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    gap: 20px;
+    background-color: #e9e3dc;
+    justify-content: center; /* Centers content horizontally in case of flex */
+    align-items: center; /* Centers content vertically in case of flex */
+    width: 100%; /* Full-width for grid container */
+    padding-bottom: 10%;
+
+
+  }
+
+
+  
+  .header-section {
+    grid-column: 1 / -1; /* Header spans all columns */
+    display: flex;
+    max-width: 60%;
+    margin: auto;
+    gap: 10%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 5%;
+  }
+  
+  .header-text {
+    flex: 1;
+    padding: 0 20px;
+    width: 30%;
+  }
+  
+  .header-text h2 {
+    font-family: 'Poppins'; /* Now using Poppins */ 
+    font-size: 28px;
+    color: #36120F;
+    font-weight: 400;
+    line-height: 38px;
+  }
+
+
+
+
+  .feature-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    justify-content: center; /* Center the grid items horizontally */
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 40%;
+    width: 100%;
+  }
+  
+  .feature-text {
+    margin-top: 23%;
+    width: 400px;
+    padding-bottom: 0px; /* Space between text and underline */
+    margin-bottom: 20px; /* Space between each feature */
+  }
+  .feature-text p {
+    padding-top: 14px;     /* Space above the text */
+    padding-bottom: 14px;  /* Space below the text */
+    margin-bottom: 0;      /* Removes extra space below each paragraph */
+    border-top: 1px solid black; /* Line above each paragraph */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: #36120F;
+  }
+  
+  .feature-column img {
+    width: 200px; /* Ensure images fill their containers */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 40px;
+  }
+  

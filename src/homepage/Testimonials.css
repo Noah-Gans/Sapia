@@ -1,0 +1,126 @@
+/* Testimonials.css */
+.testimonials-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: auto;
+    text-align: center;
+    background-color: #f7f4f2;
+    max-width: 100%;
+    height: 80vh;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center;
+
+  }
+  
+.testimonials-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    line-height: 78px;
+    font-weight: 500;
+    margin-top: 0%;
+    margin-bottom: 2px;
+    color: #36120F;
+    margin-bottom: 1em;
+  }
+  
+
+  .patient-photos .central-patient-photo {
+    width: 100px; /* Larger size */
+    height: 100px; /* Keep it the same as width for a circle */
+    z-index: 1;
+    position: relative;
+  }
+
+  .central-patient-photo{
+
+    width: 200px; /* Larger size */
+    height: auto;
+  }
+
+  .patient-photos {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* This centers the images vertically */
+    margin-bottom: 0em;
+  }
+
+  
+  .patient-photos img {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Maintain the same value as width for a circle */
+    border-radius: 50%; /* This will make the image round */
+    margin: 0 10px; /* Adjust spacing between images as needed */
+  }
+
+  .testimonial-highlight {
+    background: #f7f4f2; /* Light grey background, adjust as needed */
+    padding: 0px;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .testimonial-highlight h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    color: #36120F;
+    margin-bottom: 0em;
+  }
+  
+  .patient-details {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: #36120F;
+  }
+  
+  blockquote {
+    quotes: "";
+    font-style: italic;
+    margin-bottom: 2em;
+    max-width: 30%;
+    margin-left: auto; /* Auto margin on both sides */
+    margin-right: auto; /* This centers the block */
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 2em;
+    font-family: 'Open Sans', sans-serif;
+    color: #36120F;
+  }
+  
+ 
+  
+  .consultation-btn {
+    margin-top: 5%;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: 2px solid #bb7912;
+    color: white;
+    background: #bb7912;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 60px;
+    margin-left: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .patient-photos {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .patient-photos img {
+      margin-bottom: 10px;
+    }
+  
+    .testimonial-highlight {
+      padding: 10px;
+    }
+  }
+  
