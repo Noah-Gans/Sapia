@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sapia/static/css/main.ff66be6a.css",
-    "main.js": "/Sapia/static/js/main.f55db417.js",
+    "main.js": "/Sapia/static/js/main.d156aced.js",
     "static/js/453.e9fcef7b.chunk.js": "/Sapia/static/js/453.e9fcef7b.chunk.js",
     "static/media/Mask groupWomen holding tablet.png": "/Sapia/static/media/Mask groupWomen holding tablet.231f79ffcce5f4b37b59.png",
     "static/media/Mask groupGuyRunning.png": "/Sapia/static/media/Mask groupGuyRunning.a659407fafcf8257e042.png",
@@ -56,11 +56,11 @@
     "static/media/Ellipse 28Half Dounut Gray.png": "/Sapia/static/media/Ellipse 28Half Dounut Gray.e0eff7f9f20af58fefd3.png",
     "index.html": "/Sapia/index.html",
     "main.ff66be6a.css.map": "/Sapia/static/css/main.ff66be6a.css.map",
-    "main.f55db417.js.map": "/Sapia/static/js/main.f55db417.js.map",
+    "main.d156aced.js.map": "/Sapia/static/js/main.d156aced.js.map",
     "453.e9fcef7b.chunk.js.map": "/Sapia/static/js/453.e9fcef7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ff66be6a.css",
-    "static/js/main.f55db417.js"
+    "static/js/main.d156aced.js"
   ]
 }
