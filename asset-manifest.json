@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sapia/static/css/main.2e648368.css",
-    "main.js": "/Sapia/static/js/main.f25fc6fc.js",
+    "main.js": "/Sapia/static/js/main.e6b6ada8.js",
     "static/js/453.e9fcef7b.chunk.js": "/Sapia/static/js/453.e9fcef7b.chunk.js",
     "static/media/Mask groupWomen holding tablet.png": "/Sapia/static/media/Mask groupWomen holding tablet.231f79ffcce5f4b37b59.png",
     "static/media/Mask groupGuyRunning.png": "/Sapia/static/media/Mask groupGuyRunning.a659407fafcf8257e042.png",
@@ -36,7 +36,7 @@
     "static/media/Ellipse 26LargeGreenSemiCricle.png": "/Sapia/static/media/Ellipse 26LargeGreenSemiCricle.a2b483ee65f49872f93d.png",
     "static/media/Ellipse 24DarkGreenElipse.png": "/Sapia/static/media/Ellipse 24DarkGreenElipse.e3c8b5622d54af1d8261.png",
     "static/media/Ellipse 25DarkGreenMediumCircle.png": "/Sapia/static/media/Ellipse 25DarkGreenMediumCircle.d236700ae3cbdf6049bf.png",
-    "static/media/_Layer_Access.png": "/Sapia/static/media/_Layer_Access.f0a0cb827e461741b48e.png",
+    "static/media/Layer_Access.png": "/Sapia/static/media/Layer_Access.f0a0cb827e461741b48e.png",
     "static/media/Ellipse 29Half Dounut Green Up.png": "/Sapia/static/media/Ellipse 29Half Dounut Green Up.a73f07ed9d8db40ca75d.png",
     "static/media/YellowCircle.png": "/Sapia/static/media/YellowCircle.6ffe61e04a65f907b3a0.png",
     "static/media/Disease.png": "/Sapia/static/media/Disease.a654732373d129f31e0c.png",
@@ -58,11 +58,11 @@
     "static/media/Ellipse 28Half Dounut Gray.png": "/Sapia/static/media/Ellipse 28Half Dounut Gray.e0eff7f9f20af58fefd3.png",
     "index.html": "/Sapia/index.html",
     "main.2e648368.css.map": "/Sapia/static/css/main.2e648368.css.map",
-    "main.f25fc6fc.js.map": "/Sapia/static/js/main.f25fc6fc.js.map",
+    "main.e6b6ada8.js.map": "/Sapia/static/js/main.e6b6ada8.js.map",
     "453.e9fcef7b.chunk.js.map": "/Sapia/static/js/453.e9fcef7b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e648368.css",
-    "static/js/main.f25fc6fc.js"
+    "static/js/main.e6b6ada8.js"
   ]
 }
