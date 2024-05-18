@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sapia/static/css/main.d7bf3c30.css",
-    "main.js": "/Sapia/static/js/main.7a6a193e.js",
+    "main.css": "/Sapia/static/css/main.2e648368.css",
+    "main.js": "/Sapia/static/js/main.f25fc6fc.js",
     "static/js/453.e9fcef7b.chunk.js": "/Sapia/static/js/453.e9fcef7b.chunk.js",
     "static/media/Mask groupWomen holding tablet.png": "/Sapia/static/media/Mask groupWomen holding tablet.231f79ffcce5f4b37b59.png",
     "static/media/Mask groupGuyRunning.png": "/Sapia/static/media/Mask groupGuyRunning.a659407fafcf8257e042.png",
@@ -11,6 +11,7 @@
     "static/media/ryan.png": "/Sapia/static/media/ryan.ad2521a14f1170216ebe.png",
     "static/media/RyanHeadShot.png": "/Sapia/static/media/RyanHeadShot.51d8dab3301e8b5ebdc6.png",
     "static/media/Patient6.png": "/Sapia/static/media/Patient6.9a962c27f37142c080fd.png",
+    "static/media/Chris.png": "/Sapia/static/media/Chris.9426d5dd7e3275f7fd3c.png",
     "static/media/Funtional.png": "/Sapia/static/media/Funtional.6401295fbd8982e0a94f.png",
     "static/media/Patient3.png": "/Sapia/static/media/Patient3.02ecc8e85862402d6f1a.png",
     "static/media/Patient1.png": "/Sapia/static/media/Patient1.6ee241beee11f996f6ba.png",
@@ -28,6 +29,7 @@
     "static/media/Frame 133Sapia Checks.png": "/Sapia/static/media/Frame 133Sapia Checks.5af7a74ac1f76248a8c5.png",
     "static/media/LargeGreenElipse.png": "/Sapia/static/media/LargeGreenElipse.b739fbca2baf4b5b6004.png",
     "static/media/Layer_1Diagnostics.png": "/Sapia/static/media/Layer_1Diagnostics.3aa73ab2d2169d7e1335.png",
+    "static/media/logo1.png": "/Sapia/static/media/logo1.3aa73ab2d2169d7e1335.png",
     "static/media/Frame 90Blueprint.png": "/Sapia/static/media/Frame 90Blueprint.a6e246e0e93f0a311d66.png",
     "static/media/ComprehensiveCare.png": "/Sapia/static/media/ComprehensiveCare.9ad6f02698986ae42449.png",
     "static/media/Cognitive.png": "/Sapia/static/media/Cognitive.a46ee0a5ecca84804caa.png",
@@ -55,12 +57,12 @@
     "static/media/Stress.png": "/Sapia/static/media/Stress.2361ce0b0bfe235c26c1.png",
     "static/media/Ellipse 28Half Dounut Gray.png": "/Sapia/static/media/Ellipse 28Half Dounut Gray.e0eff7f9f20af58fefd3.png",
     "index.html": "/Sapia/index.html",
-    "main.d7bf3c30.css.map": "/Sapia/static/css/main.d7bf3c30.css.map",
-    "main.7a6a193e.js.map": "/Sapia/static/js/main.7a6a193e.js.map",
+    "main.2e648368.css.map": "/Sapia/static/css/main.2e648368.css.map",
+    "main.f25fc6fc.js.map": "/Sapia/static/js/main.f25fc6fc.js.map",
     "453.e9fcef7b.chunk.js.map": "/Sapia/static/js/453.e9fcef7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7bf3c30.css",
-    "static/js/main.7a6a193e.js"
+    "static/css/main.2e648368.css",
+    "static/js/main.f25fc6fc.js"
   ]
 }
