@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e648368.css",
-    "main.js": "/static/js/main.6841d439.js",
+    "main.css": "/static/css/main.12cedec5.css",
+    "main.js": "/static/js/main.c691c9c8.js",
     "static/js/453.e9fcef7b.chunk.js": "/static/js/453.e9fcef7b.chunk.js",
     "static/media/Mask groupWomen holding tablet.png": "/static/media/Mask groupWomen holding tablet.231f79ffcce5f4b37b59.png",
     "static/media/Mask groupGuyRunning.png": "/static/media/Mask groupGuyRunning.a659407fafcf8257e042.png",
@@ -57,12 +57,12 @@
     "static/media/Stress.png": "/static/media/Stress.2361ce0b0bfe235c26c1.png",
     "static/media/Ellipse 28Half Dounut Gray.png": "/static/media/Ellipse 28Half Dounut Gray.e0eff7f9f20af58fefd3.png",
     "index.html": "/index.html",
-    "main.2e648368.css.map": "/static/css/main.2e648368.css.map",
-    "main.6841d439.js.map": "/static/js/main.6841d439.js.map",
+    "main.12cedec5.css.map": "/static/css/main.12cedec5.css.map",
+    "main.c691c9c8.js.map": "/static/js/main.c691c9c8.js.map",
     "453.e9fcef7b.chunk.js.map": "/static/js/453.e9fcef7b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e648368.css",
-    "static/js/main.6841d439.js"
+    "static/css/main.12cedec5.css",
+    "static/js/main.c691c9c8.js"
   ]
 }
